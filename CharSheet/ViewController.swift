@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         
         //removes line on navigation bar
         navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.pushViewController(CharSheetViewController(), animated: true)
     }
 
 

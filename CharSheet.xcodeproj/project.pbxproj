@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */; };
+		DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */; };
 		DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */; };
 		DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */; };
 		DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA9244CDCDD00BC187C /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetViewController.swift; sourceTree = "<group>"; };
+		DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterIllustrationView.swift; sourceTree = "<group>"; };
 		DA93EBA2244CDCDD00BC187C /* CharSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA3BC664244E486300FA0AF4 /* CharacterAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BC666244E488100FA0AF4 /* Controller */,
+				DA3BC665244E487A00FA0AF4 /* Views */,
+				DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */,
+			);
+			path = CharacterAttributes;
+			sourceTree = "<group>";
+		};
+		DA3BC665244E487A00FA0AF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DA3BC666244E488100FA0AF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		DA93EB99244CDCDD00BC187C = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,7 @@
 		DA93EBA4244CDCDD00BC187C /* CharSheet */ = {
 			isa = PBXGroup;
 			children = (
+				DA3BC664244E486300FA0AF4 /* CharacterAttributes */,
 				DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */,
 				DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */,
 				DA93EBA9244CDCDD00BC187C /* ViewController.swift */,
@@ -140,6 +170,8 @@
 			files = (
 				DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */,
 				DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */,
+				DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */,
+				DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */,
 				DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
