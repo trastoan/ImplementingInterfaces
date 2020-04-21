@@ -16,8 +16,6 @@ class CharacteristicView: UIView {
         self.addSubview(label)
         label.font = UIFont.systemFont(ofSize: 12, weight: .light)
         label.textAlignment = .center
-//        label.adjustsFontSizeToFitWidth = true
-//        label.minimumScaleFactor = 0.5
         return label
     }()
     
@@ -27,8 +25,6 @@ class CharacteristicView: UIView {
         self.addSubview(label)
         label.font = UIFont.systemFont(ofSize: 32, weight: .medium)
         label.textAlignment = .center
-//        label.adjustsFontSizeToFitWidth = true
-//        label.minimumScaleFactor = 0.5
         return label
     }()
     
@@ -42,9 +38,14 @@ class CharacteristicView: UIView {
     
     
     override func draw(_ rect: CGRect) {
-        self.layer.borderWidth = 2
+        self.layer.borderWidth = 1
         self.layer.borderColor = UIColor.black.cgColor
         self.backgroundColor = .clear
+    }
+    
+    func updateFonts(value: UIFont, characteristic: UIFont) {
+        characteristicLabel.font = characteristic
+        valueLabel.font = value
     }
     
     private func configureLayout() {

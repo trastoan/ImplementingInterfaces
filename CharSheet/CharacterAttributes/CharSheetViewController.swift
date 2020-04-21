@@ -24,6 +24,13 @@ class CharSheetViewController: UIViewController {
         return battle
     }()
     
+    lazy var attributesInformation: AttributesView = {
+        let attributes = AttributesView()
+        attributes.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(attributes)
+        return attributes
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         additionalConfigurations()
@@ -45,9 +52,13 @@ class CharSheetViewController: UIViewController {
             characterIllustration.rightAnchor.constraint(equalTo: view.rightAnchor),
             characterIllustration.heightAnchor.constraint(equalTo: characterIllustration.widthAnchor),
             
-            battleInformation.topAnchor.constraint(equalTo: characterIllustration.bottomAnchor, constant: 96),
+            battleInformation.topAnchor.constraint(equalTo: characterIllustration.bottomAnchor, constant: 30),
             battleInformation.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             battleInformation.rightAnchor.constraint(equalTo: self.view.rightAnchor),
+            
+            attributesInformation.topAnchor.constraint(equalTo: battleInformation.bottomAnchor, constant: 16),
+            attributesInformation.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 16),
+            attributesInformation.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -16)
             
         ])
     }

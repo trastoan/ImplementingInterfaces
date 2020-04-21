@@ -80,7 +80,8 @@ class BattleInformationView: UIView {
             
             lifeView.topAnchor.constraint(equalTo: stack.bottomAnchor, constant: 16),
             lifeView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
-            lifeView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16)
+            lifeView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -16),
+            lifeView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
     }
     
