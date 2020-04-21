@@ -17,7 +17,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDO-eP-tEQ">
                                 <rect key="frame" x="16" y="40" width="343" height="343"/>
-                                <color key="backgroundColor" red="0.084500976852112636" green="0.084497324564802134" blue="0.084499812921207285" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.086274509803921567" green="0.084497324564802134" blue="0.084499812921207285" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XDO-eP-tEQ" secondAttribute="height" multiplier="1:1" id="3bn-if-ADc"/>
                                 </constraints>
@@ -36,7 +36,7 @@
                                 <color key="textColor" red="0.68025504871830977" green="0.1548189541489691" blue="0.099228497076256708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ODd-vw-YWV">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ODd-vw-YWV">
                                 <rect key="frame" x="48" y="465.33333333333337" width="279" height="89"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3k5-hn-x01">
@@ -91,8 +91,6 @@
                                             <constraint firstItem="USG-dp-cSB" firstAttribute="top" secondItem="RiA-8D-MXz" secondAttribute="top" constant="10" id="4Xk-3u-ehI"/>
                                             <constraint firstItem="Bm6-jf-wH5" firstAttribute="top" secondItem="USG-dp-cSB" secondAttribute="bottom" constant="10" id="A3X-OV-PWe"/>
                                             <constraint firstItem="USG-dp-cSB" firstAttribute="centerX" secondItem="RiA-8D-MXz" secondAttribute="centerX" id="E3e-Up-4zk"/>
-                                            <constraint firstAttribute="height" constant="89" id="d1m-bT-KYu"/>
-                                            <constraint firstAttribute="width" constant="73" id="laW-5f-4Ro"/>
                                             <constraint firstItem="Bm6-jf-wH5" firstAttribute="centerX" secondItem="RiA-8D-MXz" secondAttribute="centerX" id="xD1-1t-0XA"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
@@ -120,11 +118,9 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="BfX-13-2E3" firstAttribute="centerX" secondItem="bWb-Zy-wbC" secondAttribute="centerX" id="Dxn-Xe-PCa"/>
-                                            <constraint firstAttribute="height" constant="89" id="W3j-mi-bMq"/>
                                             <constraint firstItem="YiR-6q-9Hh" firstAttribute="top" secondItem="bWb-Zy-wbC" secondAttribute="top" constant="10" id="bSA-aq-vQh"/>
                                             <constraint firstItem="YiR-6q-9Hh" firstAttribute="centerX" secondItem="bWb-Zy-wbC" secondAttribute="centerX" id="e1M-NY-J2t"/>
                                             <constraint firstItem="BfX-13-2E3" firstAttribute="top" secondItem="YiR-6q-9Hh" secondAttribute="bottom" constant="10" id="sxq-dy-qDf"/>
-                                            <constraint firstAttribute="width" constant="73" id="xCJ-9r-kKF"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
@@ -342,9 +338,6 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="w1R-bl-OG8"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.90980392156862744" green="0.71372549019607845" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

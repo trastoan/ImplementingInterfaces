@@ -16,7 +16,14 @@ class CharSheetViewController: UIViewController {
         self.view.addSubview(illustration)
         return illustration
     }()
-
+    
+    lazy var battleInformation: BattleInformationView = {
+        let battle = BattleInformationView()
+        battle.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(battle)
+        return battle
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         additionalConfigurations()
@@ -26,8 +33,7 @@ class CharSheetViewController: UIViewController {
         configureLayout()
         
         //Change background color
-        view.backgroundColor = UIColor(displayP3Red: 232.0/255.0, green: 182.0/255.0, blue: 84.0/255, alpha: 1)
-        
+        view.backgroundColor = .mustardYellow
         //Navigation configuration
         self.title = "Xilyra Zhong"
     }
@@ -35,10 +41,14 @@ class CharSheetViewController: UIViewController {
     private func configureLayout() {
         NSLayoutConstraint.activate([
             characterIllustration.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
-            characterIllustration.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16),
-            characterIllustration.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -16),
-            characterIllustration.heightAnchor.constraint(equalTo: characterIllustration.widthAnchor)
-        
+            characterIllustration.leftAnchor.constraint(equalTo: view.leftAnchor),
+            characterIllustration.rightAnchor.constraint(equalTo: view.rightAnchor),
+            characterIllustration.heightAnchor.constraint(equalTo: characterIllustration.widthAnchor),
+            
+            battleInformation.topAnchor.constraint(equalTo: characterIllustration.bottomAnchor, constant: 96),
+            battleInformation.leftAnchor.constraint(equalTo: self.view.leftAnchor),
+            battleInformation.rightAnchor.constraint(equalTo: self.view.rightAnchor),
+            
         ])
     }
 }

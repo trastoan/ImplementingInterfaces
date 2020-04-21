@@ -15,6 +15,10 @@
 		DA93EBAD244CDCDD00BC187C /* CharSheet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA93EBAB244CDCDD00BC187C /* CharSheet.storyboard */; };
 		DA93EBAF244CDCDF00BC187C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA93EBAE244CDCDF00BC187C /* Assets.xcassets */; };
 		DA93EBB2244CDCDF00BC187C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA93EBB0244CDCDF00BC187C /* LaunchScreen.storyboard */; };
+		DAAC70FA244E5248007F930C /* CharacteristicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70F9244E5248007F930C /* CharacteristicView.swift */; };
+		DAAC70FC244E5546007F930C /* BattleInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FB244E5546007F930C /* BattleInformationView.swift */; };
+		DAAC70FE244E69A8007F930C /* ApplicationColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FD244E69A8007F930C /* ApplicationColors.swift */; };
+		DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FF244E6DAB007F930C /* LifePointsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		DA93EBAE244CDCDF00BC187C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA93EBB1244CDCDF00BC187C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA93EBB3244CDCDF00BC187C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAC70F9244E5248007F930C /* CharacteristicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicView.swift; sourceTree = "<group>"; };
+		DAAC70FB244E5546007F930C /* BattleInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleInformationView.swift; sourceTree = "<group>"; };
+		DAAC70FD244E69A8007F930C /* ApplicationColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationColors.swift; sourceTree = "<group>"; };
+		DAAC70FF244E6DAB007F930C /* LifePointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePointsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 				DA3BC666244E488100FA0AF4 /* Controller */,
 				DA3BC665244E487A00FA0AF4 /* Views */,
 				DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */,
+				DAAC70FD244E69A8007F930C /* ApplicationColors.swift */,
 			);
 			path = CharacterAttributes;
 			sourceTree = "<group>";
@@ -55,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */,
+				DAAC70F9244E5248007F930C /* CharacteristicView.swift */,
+				DAAC70FB244E5546007F930C /* BattleInformationView.swift */,
+				DAAC70FF244E6DAB007F930C /* LifePointsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,9 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAC70FE244E69A8007F930C /* ApplicationColors.swift in Sources */,
 				DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */,
 				DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */,
 				DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */,
+				DAAC70FC244E5546007F930C /* BattleInformationView.swift in Sources */,
+				DAAC70FA244E5248007F930C /* CharacteristicView.swift in Sources */,
+				DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */,
 				DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */,
 				DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */,
 			);

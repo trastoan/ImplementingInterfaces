@@ -25,7 +25,7 @@ class CharacterIllustrationView: UIView {
         return imageView
     }()
     
-    init(image: UIImage, circleColor: UIColor = .black) {
+    init(image: UIImage, circleColor: UIColor = .lightBlack) {
         super.init(frame: .zero)
         roundView.backgroundColor = circleColor
         characterImage.image = image
@@ -49,8 +49,7 @@ class CharacterIllustrationView: UIView {
             roundView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 16),
             roundView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16),
             roundView.heightAnchor.constraint(equalTo: roundView.widthAnchor),
-            //Here is 56 instead of 40 because we need to take in account the safe area top that is 16
-            roundView.topAnchor.constraint(equalTo: self.topAnchor, constant: 56),
+            roundView.topAnchor.constraint(equalTo: self.topAnchor, constant: 40),
             
             
             characterImage.centerYAnchor.constraint(equalTo: roundView.centerYAnchor),
