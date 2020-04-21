@@ -12,12 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //removes line on navigation bar
-        navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.pushViewController(CharSheetViewController(), animated: true)
     }
-
-
 }
 
