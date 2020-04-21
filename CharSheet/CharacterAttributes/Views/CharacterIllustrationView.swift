@@ -20,7 +20,7 @@ class CharacterIllustrationView: UIView {
        let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.clipsToBounds = false
-        imageView.contentMode = .center
+        imageView.contentMode = .scaleAspectFit
         self.addSubview(imageView)
         return imageView
     }()
@@ -46,16 +46,16 @@ class CharacterIllustrationView: UIView {
     private func configureLayout() {
         NSLayoutConstraint.activate([
         //Round View Constraints
-            roundView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 16),
-            roundView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16),
+            roundView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 32),
+            roundView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -32),
             roundView.heightAnchor.constraint(equalTo: roundView.widthAnchor),
             roundView.topAnchor.constraint(equalTo: self.topAnchor, constant: 40),
             
             
             characterImage.centerYAnchor.constraint(equalTo: roundView.centerYAnchor),
             characterImage.centerXAnchor.constraint(equalTo: roundView.centerXAnchor),
-            characterImage.widthAnchor.constraint(equalTo: roundView.widthAnchor, multiplier: 1.1),
-            characterImage.heightAnchor.constraint(equalTo: roundView.heightAnchor, multiplier: 1.1),
+            characterImage.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1.2),
+            characterImage.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 1.2),
         ])
     }
 }

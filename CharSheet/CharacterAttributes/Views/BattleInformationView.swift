@@ -75,7 +75,7 @@ class BattleInformationView: UIView {
             stack.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 48),
             stack.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -48),
             
-            armorView.widthAnchor.constraint(equalToConstant: 73),
+            
             armorView.heightAnchor.constraint(equalToConstant: 89),
             
             lifeView.topAnchor.constraint(equalTo: stack.bottomAnchor, constant: 16),
