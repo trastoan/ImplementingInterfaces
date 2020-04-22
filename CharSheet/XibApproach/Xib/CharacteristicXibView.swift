@@ -8,18 +8,18 @@
 
 import UIKit
 
-@IBDesignable class CharacteristicXibView: UIView {
+@IBDesignable public class CharacteristicXibView: UIView {
     
     let nibName = "CharacteristicXibView"
     var contentView: UIView?
     
-    @IBInspectable var characteristic: String = "AC" {
+    @IBInspectable public var characteristic: String = "AC" {
         didSet {
             characteristicLabel.text = characteristic
         }
     }
     
-    @IBInspectable var value: String = "19" {
+    @IBInspectable public var value: String = "19" {
         didSet {
             valueLabel.text = value
         }
