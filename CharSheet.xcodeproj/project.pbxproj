@@ -27,6 +27,7 @@
 		DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetViewController.swift; sourceTree = "<group>"; };
 		DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterIllustrationView.swift; sourceTree = "<group>"; };
 		DA5FD256244FB92600455320 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DA5FD259244FC04100455320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CharSheetXib.storyboard; sourceTree = "<group>"; };
 		DA93EBA2244CDCDD00BC187C /* CharSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		DAAC7103244FB783007F930C /* XibApproach */ = {
 			isa = PBXGroup;
 			children = (
+				DA5FD258244FC04100455320 /* CharSheetXib.storyboard */,
 			);
 			path = XibApproach;
 			sourceTree = "<group>";
@@ -227,6 +229,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		DA5FD258244FC04100455320 /* CharSheetXib.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5FD259244FC04100455320 /* Base */,
+			);
+			name = CharSheetXib.storyboard;
+			sourceTree = "<group>";
+		};
 		DA93EBAB244CDCDD00BC187C /* CharSheet.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

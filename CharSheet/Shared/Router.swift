@@ -39,6 +39,7 @@ struct Router {
         navigation.navigationBar.barTintColor = .mustardYellow
         navigation.navigationBar.titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21, weight: .bold)]
         navigation.navigationBar.shadowImage = UIImage()
+        navigation.navigationBar.isTranslucent = false
         
         return navigation
     }
