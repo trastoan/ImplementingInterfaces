@@ -10,6 +10,9 @@
 		DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */; };
 		DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */; };
 		DA5FD257244FB92600455320 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD256244FB92600455320 /* Router.swift */; };
+		DA5FD25B244FC27400455320 /* CharSheetXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */; };
+		DA5FD25C244FC2CE00455320 /* CharSheetXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5FD258244FC04100455320 /* CharSheetXib.storyboard */; };
+		DA5FD261244FC33400455320 /* CharacteristicXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5FD260244FC33400455320 /* CharacteristicXibView.xib */; };
 		DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */; };
 		DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */; };
 		DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA9244CDCDD00BC187C /* ViewController.swift */; };
@@ -21,6 +24,7 @@
 		DAAC70FE244E69A8007F930C /* ApplicationColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FD244E69A8007F930C /* ApplicationColors.swift */; };
 		DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FF244E6DAB007F930C /* LifePointsView.swift */; };
 		DAAC7102244E7B68007F930C /* AttributesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7101244E7B68007F930C /* AttributesView.swift */; };
+		DACB98D9244FC81F006A53DE /* CharacteristicXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD25E244FC31D00455320 /* CharacteristicXibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,9 @@
 		DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterIllustrationView.swift; sourceTree = "<group>"; };
 		DA5FD256244FB92600455320 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		DA5FD259244FC04100455320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CharSheetXib.storyboard; sourceTree = "<group>"; };
+		DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetXibViewController.swift; sourceTree = "<group>"; };
+		DA5FD25E244FC31D00455320 /* CharacteristicXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicXibView.swift; sourceTree = "<group>"; };
+		DA5FD260244FC33400455320 /* CharacteristicXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacteristicXibView.xib; sourceTree = "<group>"; };
 		DA93EBA2244CDCDD00BC187C /* CharSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +91,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		DA5FD25D244FC30000455320 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				DA5FD25E244FC31D00455320 /* CharacteristicXibView.swift */,
+				DA5FD260244FC33400455320 /* CharacteristicXibView.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
 		DA93EB99244CDCDD00BC187C = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +133,9 @@
 		DAAC7103244FB783007F930C /* XibApproach */ = {
 			isa = PBXGroup;
 			children = (
+				DA5FD25D244FC30000455320 /* Xib */,
 				DA5FD258244FC04100455320 /* CharSheetXib.storyboard */,
+				DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */,
 			);
 			path = XibApproach;
 			sourceTree = "<group>";
@@ -199,7 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5FD25C244FC2CE00455320 /* CharSheetXib.storyboard in Resources */,
 				DA93EBB2244CDCDF00BC187C /* LaunchScreen.storyboard in Resources */,
+				DA5FD261244FC33400455320 /* CharacteristicXibView.xib in Resources */,
 				DA93EBAF244CDCDF00BC187C /* Assets.xcassets in Resources */,
 				DA93EBAD244CDCDD00BC187C /* CharSheet.storyboard in Resources */,
 			);
@@ -218,8 +238,10 @@
 				DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */,
 				DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */,
 				DAAC70FC244E5546007F930C /* BattleInformationView.swift in Sources */,
+				DACB98D9244FC81F006A53DE /* CharacteristicXibView.swift in Sources */,
 				DAAC70FA244E5248007F930C /* CharacteristicView.swift in Sources */,
 				DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */,
+				DA5FD25B244FC27400455320 /* CharSheetXibViewController.swift in Sources */,
 				DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */,
 				DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */,
 				DAAC7102244E7B68007F930C /* AttributesView.swift in Sources */,

@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window?.windowScene = windowScene
         let router = Router()
-        window?.rootViewController = router.mainController(approach: .storyboard)
+        window?.rootViewController = router.mainController(approach: .xib)
         
         window?.makeKeyAndVisible()
     }

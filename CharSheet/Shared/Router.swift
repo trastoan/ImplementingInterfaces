@@ -25,8 +25,9 @@ struct Router {
         case .storyboard:
             let storyboard = UIStoryboard(name: "CharSheet", bundle: nil)
             controller = storyboard.instantiateViewController(withIdentifier: "CharSheetController")
-        default:
-            return UIViewController()
+        case .xib:
+            let storyboard = UIStoryboard(name: "CharSheetXib", bundle: nil)
+            controller = storyboard.instantiateViewController(withIdentifier: "CharSheetXibController")
         }
         
         navigation.viewControllers = [controller]

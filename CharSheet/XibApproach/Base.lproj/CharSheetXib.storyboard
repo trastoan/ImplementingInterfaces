@@ -10,7 +10,7 @@
         <!--Xilyra Zhong-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="CharSheetController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="CharSheet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CharSheetXibController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="CharSheetXibViewController" customModule="CharSheet" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,92 +39,27 @@
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ODd-vw-YWV">
                                 <rect key="frame" x="48" y="509.33333333333326" width="279" height="89"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3k5-hn-x01">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3k5-hn-x01" customClass="CharacteristicXibView" customModule="CharSheet" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="73" height="89"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Armadura" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMl-EK-CBM">
-                                                <rect key="frame" x="9" y="58.333333333333321" width="55" height="14.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZa-De-YN4">
-                                                <rect key="frame" x="19.000000000000004" y="10.000000000000057" width="35.333333333333343" height="38.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="32"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="SZa-De-YN4" firstAttribute="top" secondItem="3k5-hn-x01" secondAttribute="top" constant="10" id="9ov-Ek-D1U"/>
                                             <constraint firstAttribute="height" constant="89" id="W3d-Ib-trD"/>
-                                            <constraint firstItem="SZa-De-YN4" firstAttribute="centerX" secondItem="3k5-hn-x01" secondAttribute="centerX" id="eMX-Yt-70x"/>
-                                            <constraint firstItem="DMl-EK-CBM" firstAttribute="centerX" secondItem="3k5-hn-x01" secondAttribute="centerX" id="rDW-aw-3Jt"/>
-                                            <constraint firstItem="DMl-EK-CBM" firstAttribute="top" secondItem="SZa-De-YN4" secondAttribute="bottom" constant="10" id="wLn-V4-Ogs"/>
                                         </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RiA-8D-MXz">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RiA-8D-MXz" customClass="CharacteristicXibView" customModule="CharSheet" customModuleProvider="target">
                                         <rect key="frame" x="103" y="0.0" width="73" height="89"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iniciativa" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm6-jf-wH5">
-                                                <rect key="frame" x="12.333333333333346" y="58.333333333333321" width="48.333333333333343" height="14.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USG-dp-cSB">
-                                                <rect key="frame" x="16.333333333333339" y="10.000000000000057" width="40.666666666666657" height="38.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="32"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="USG-dp-cSB" firstAttribute="top" secondItem="RiA-8D-MXz" secondAttribute="top" constant="10" id="4Xk-3u-ehI"/>
-                                            <constraint firstItem="Bm6-jf-wH5" firstAttribute="top" secondItem="USG-dp-cSB" secondAttribute="bottom" constant="10" id="A3X-OV-PWe"/>
-                                            <constraint firstItem="USG-dp-cSB" firstAttribute="centerX" secondItem="RiA-8D-MXz" secondAttribute="centerX" id="E3e-Up-4zk"/>
-                                            <constraint firstItem="Bm6-jf-wH5" firstAttribute="centerX" secondItem="RiA-8D-MXz" secondAttribute="centerX" id="xD1-1t-0XA"/>
-                                        </constraints>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="characteristic" value="Iniciativa"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="value" value="+4"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-Zy-wbC">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-Zy-wbC" customClass="CharacteristicXibView" customModule="CharSheet" customModuleProvider="target">
                                         <rect key="frame" x="206" y="0.0" width="73" height="89"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desloc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfX-13-2E3">
-                                                <rect key="frame" x="15.666666666666686" y="58.333333333333321" width="42" height="14.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiR-6q-9Hh">
-                                                <rect key="frame" x="19.333333333333311" y="10.000000000000057" width="34.666666666666657" height="38.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="32"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="BfX-13-2E3" firstAttribute="centerX" secondItem="bWb-Zy-wbC" secondAttribute="centerX" id="Dxn-Xe-PCa"/>
-                                            <constraint firstItem="YiR-6q-9Hh" firstAttribute="top" secondItem="bWb-Zy-wbC" secondAttribute="top" constant="10" id="bSA-aq-vQh"/>
-                                            <constraint firstItem="YiR-6q-9Hh" firstAttribute="centerX" secondItem="bWb-Zy-wbC" secondAttribute="centerX" id="e1M-NY-J2t"/>
-                                            <constraint firstItem="BfX-13-2E3" firstAttribute="top" secondItem="YiR-6q-9Hh" secondAttribute="bottom" constant="10" id="sxq-dy-qDf"/>
-                                        </constraints>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="1"/>
-                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="characteristic" value="Desloc."/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="value" value="15"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
