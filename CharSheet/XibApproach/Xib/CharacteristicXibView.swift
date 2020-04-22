@@ -10,9 +10,6 @@ import UIKit
 
 @IBDesignable public class CharacteristicXibView: UIView {
     
-    let nibName = "CharacteristicXibView"
-    var contentView: UIView?
-    
     @IBInspectable public var characteristic: String = "AC" {
         didSet {
             characteristicLabel.text = characteristic
@@ -24,14 +21,27 @@ import UIKit
             valueLabel.text = value
         }
     }
-
+    
     @IBOutlet weak var valueLabel: UILabel!
     @IBOutlet weak var characteristicLabel: UILabel!
     
+    let nibName = "CharacteristicXibView"
+    var contentView: UIView?
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-
-        guard let view = loadViewFromNib() else { return }
+        setupXib()
+    }
+    
+    init(with characteristic: String, value: String) {
+        super.init(frame: .zero)
+        setupXib()
+        valueLabel.text = value
+        characteristicLabel.text = characteristic
+    }
+    
+    private func setupXib() {
+        guard let view = loadViewFromNib() else { fatalError("Wrong xib name") }
         view.frame = self.bounds
         self.addSubview(view)
         contentView = view

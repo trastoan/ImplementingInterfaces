@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA04FE8C2450DF7C00F8F42E /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA04FE8B2450DF7C00F8F42E /* RandomViewController.swift */; };
 		DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */; };
 		DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */; };
 		DA5FD257244FB92600455320 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD256244FB92600455320 /* Router.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA04FE8B2450DF7C00F8F42E /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetViewController.swift; sourceTree = "<group>"; };
 		DA3BC667244E48A400FA0AF4 /* CharacterIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterIllustrationView.swift; sourceTree = "<group>"; };
 		DA5FD256244FB92600455320 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				DA5FD25D244FC30000455320 /* Xib */,
 				DA5FD258244FC04100455320 /* CharSheetXib.storyboard */,
 				DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */,
+				DA04FE8B2450DF7C00F8F42E /* RandomViewController.swift */,
 			);
 			path = XibApproach;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				DA5FD257244FB92600455320 /* Router.swift in Sources */,
 				DAAC70FE244E69A8007F930C /* ApplicationColors.swift in Sources */,
 				DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */,
+				DA04FE8C2450DF7C00F8F42E /* RandomViewController.swift in Sources */,
 				DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */,
 				DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */,
 				DAAC70FC244E5546007F930C /* BattleInformationView.swift in Sources */,

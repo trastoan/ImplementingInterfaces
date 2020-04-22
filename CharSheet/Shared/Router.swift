@@ -13,6 +13,7 @@ struct Router {
         case viewCode
         case storyboard
         case xib
+        case xibCode
     }
     
     func mainController(approach: Approach) -> UIViewController {
@@ -28,6 +29,8 @@ struct Router {
         case .xib:
             let storyboard = UIStoryboard(name: "CharSheetXib", bundle: nil)
             controller = storyboard.instantiateViewController(withIdentifier: "CharSheetXibController")
+        case .xibCode:
+            controller = RandomViewController()
         }
         
         navigation.viewControllers = [controller]
