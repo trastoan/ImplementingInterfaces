@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 struct Router {
     enum Approach {
@@ -14,6 +15,7 @@ struct Router {
         case storyboard
         case xib
         case xibCode
+        case swiftui
     }
     
     func mainController(approach: Approach) -> UIViewController {
@@ -31,6 +33,8 @@ struct Router {
             controller = storyboard.instantiateViewController(withIdentifier: "CharSheetXibController")
         case .xibCode:
             controller = RandomViewController()
+        case .swiftui:
+            controller = UIHostingController(rootView: CharSheetView())
         }
         
         navigation.viewControllers = [controller]
@@ -40,11 +44,14 @@ struct Router {
     
     private func configureNavigationController() -> UINavigationController {
         let navigation = UINavigationController()
-        navigation.navigationBar.barTintColor = .mustardYellow
-        navigation.navigationBar.titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21, weight: .bold)]
-        navigation.navigationBar.shadowImage = UIImage()
-        navigation.navigationBar.isTranslucent = false
-        
+        let appearence = UINavigationBarAppearance()
+        appearence.backgroundColor = .mustardYellow
+        appearence.titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21, weight: .bold)]
+        appearence.shadowColor = .clear
+
+
+        navigation.navigationBar.standardAppearance = appearence
+        navigation.navigationBar.scrollEdgeAppearance = appearence
         return navigation
     }
 }

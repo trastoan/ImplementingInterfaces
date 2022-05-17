@@ -14,6 +14,11 @@
 		DA5FD25B244FC27400455320 /* CharSheetXibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */; };
 		DA5FD25C244FC2CE00455320 /* CharSheetXib.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5FD258244FC04100455320 /* CharSheetXib.storyboard */; };
 		DA5FD261244FC33400455320 /* CharacteristicXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5FD260244FC33400455320 /* CharacteristicXibView.xib */; };
+		DA79C06828342C1E000D2A0B /* CharIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79C06728342C1E000D2A0B /* CharIllustrationView.swift */; };
+		DA79C06A28342C3A000D2A0B /* BattleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79C06928342C3A000D2A0B /* BattleInfoView.swift */; };
+		DA79C06C28342C76000D2A0B /* LifePointsSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79C06B28342C76000D2A0B /* LifePointsSView.swift */; };
+		DA79C06E28342CC4000D2A0B /* CharAttributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79C06D28342CC4000D2A0B /* CharAttributeView.swift */; };
+		DA79C07028342D22000D2A0B /* CharacteristicsSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA79C06F28342D22000D2A0B /* CharacteristicsSView.swift */; };
 		DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */; };
 		DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */; };
 		DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93EBA9244CDCDD00BC187C /* ViewController.swift */; };
@@ -26,6 +31,7 @@
 		DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC70FF244E6DAB007F930C /* LifePointsView.swift */; };
 		DAAC7102244E7B68007F930C /* AttributesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAC7101244E7B68007F930C /* AttributesView.swift */; };
 		DACB98D9244FC81F006A53DE /* CharacteristicXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5FD25E244FC31D00455320 /* CharacteristicXibView.swift */; };
+		DAF25D812832939B00EB6C7F /* CharSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF25D802832939B00EB6C7F /* CharSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,11 @@
 		DA5FD25A244FC27400455320 /* CharSheetXibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetXibViewController.swift; sourceTree = "<group>"; };
 		DA5FD25E244FC31D00455320 /* CharacteristicXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicXibView.swift; sourceTree = "<group>"; };
 		DA5FD260244FC33400455320 /* CharacteristicXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacteristicXibView.xib; sourceTree = "<group>"; };
+		DA79C06728342C1E000D2A0B /* CharIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharIllustrationView.swift; sourceTree = "<group>"; };
+		DA79C06928342C3A000D2A0B /* BattleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleInfoView.swift; sourceTree = "<group>"; };
+		DA79C06B28342C76000D2A0B /* LifePointsSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePointsSView.swift; sourceTree = "<group>"; };
+		DA79C06D28342CC4000D2A0B /* CharAttributeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharAttributeView.swift; sourceTree = "<group>"; };
+		DA79C06F28342D22000D2A0B /* CharacteristicsSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicsSView.swift; sourceTree = "<group>"; };
 		DA93EBA2244CDCDD00BC187C /* CharSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +61,7 @@
 		DAAC70FD244E69A8007F930C /* ApplicationColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationColors.swift; sourceTree = "<group>"; };
 		DAAC70FF244E6DAB007F930C /* LifePointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePointsView.swift; sourceTree = "<group>"; };
 		DAAC7101244E7B68007F930C /* AttributesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributesView.swift; sourceTree = "<group>"; };
+		DAF25D802832939B00EB6C7F /* CharSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +80,6 @@
 			children = (
 				DA3BC666244E488100FA0AF4 /* Controller */,
 				DA3BC665244E487A00FA0AF4 /* Views */,
-				DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */,
-				DAAC70FD244E69A8007F930C /* ApplicationColors.swift */,
 			);
 			path = ViewCode;
 			sourceTree = "<group>";
@@ -89,6 +99,7 @@
 		DA3BC666244E488100FA0AF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA3BC662244E485F00FA0AF4 /* CharSheetViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -100,6 +111,18 @@
 				DA5FD260244FC33400455320 /* CharacteristicXibView.xib */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		DA79C06528342C06000D2A0B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DA79C06728342C1E000D2A0B /* CharIllustrationView.swift */,
+				DA79C06928342C3A000D2A0B /* BattleInfoView.swift */,
+				DA79C06B28342C76000D2A0B /* LifePointsSView.swift */,
+				DA79C06D28342CC4000D2A0B /* CharAttributeView.swift */,
+				DA79C06F28342D22000D2A0B /* CharacteristicsSView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		DA93EB99244CDCDD00BC187C = {
@@ -121,6 +144,7 @@
 		DA93EBA4244CDCDD00BC187C /* CharSheet */ = {
 			isa = PBXGroup;
 			children = (
+				DAF25D7F2832937D00EB6C7F /* SwiftUI */,
 				DAAC7105244FB7A8007F930C /* Shared */,
 				DAAC7104244FB796007F930C /* Storyboard */,
 				DAAC7103244FB783007F930C /* XibApproach */,
@@ -157,9 +181,19 @@
 			children = (
 				DA93EBA5244CDCDD00BC187C /* AppDelegate.swift */,
 				DA93EBA7244CDCDD00BC187C /* SceneDelegate.swift */,
+				DAAC70FD244E69A8007F930C /* ApplicationColors.swift */,
 				DA5FD256244FB92600455320 /* Router.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		DAF25D7F2832937D00EB6C7F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DA79C06528342C06000D2A0B /* Components */,
+				DAF25D802832939B00EB6C7F /* CharSheetView.swift */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = academy;
 				TargetAttributes = {
 					DA93EBA1244CDCDD00BC187C = {
@@ -237,18 +271,24 @@
 			files = (
 				DA5FD257244FB92600455320 /* Router.swift in Sources */,
 				DAAC70FE244E69A8007F930C /* ApplicationColors.swift in Sources */,
+				DAF25D812832939B00EB6C7F /* CharSheetView.swift in Sources */,
 				DA93EBAA244CDCDD00BC187C /* ViewController.swift in Sources */,
 				DA04FE8C2450DF7C00F8F42E /* RandomViewController.swift in Sources */,
 				DA93EBA6244CDCDD00BC187C /* AppDelegate.swift in Sources */,
 				DA3BC663244E485F00FA0AF4 /* CharSheetViewController.swift in Sources */,
 				DAAC70FC244E5546007F930C /* BattleInformationView.swift in Sources */,
+				DA79C06828342C1E000D2A0B /* CharIllustrationView.swift in Sources */,
 				DACB98D9244FC81F006A53DE /* CharacteristicXibView.swift in Sources */,
+				DA79C06A28342C3A000D2A0B /* BattleInfoView.swift in Sources */,
 				DAAC70FA244E5248007F930C /* CharacteristicView.swift in Sources */,
 				DAAC7100244E6DAB007F930C /* LifePointsView.swift in Sources */,
 				DA5FD25B244FC27400455320 /* CharSheetXibViewController.swift in Sources */,
 				DA3BC668244E48A400FA0AF4 /* CharacterIllustrationView.swift in Sources */,
 				DA93EBA8244CDCDD00BC187C /* SceneDelegate.swift in Sources */,
 				DAAC7102244E7B68007F930C /* AttributesView.swift in Sources */,
+				DA79C06E28342CC4000D2A0B /* CharAttributeView.swift in Sources */,
+				DA79C06C28342C76000D2A0B /* LifePointsSView.swift in Sources */,
+				DA79C07028342D22000D2A0B /* CharacteristicsSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +348,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -332,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -368,6 +409,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -386,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -400,9 +442,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = CharSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,9 +462,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489VWS49NR;
 				INFOPLIST_FILE = CharSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
